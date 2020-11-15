@@ -9,10 +9,6 @@ const buttons = [
 ];
 
 class Button extends React.Component {
-  // constructor(props) {
-  //   super(props)
-  // }
-
   render() {
     return (
       <button className='button' onClick={this.props.action}>
